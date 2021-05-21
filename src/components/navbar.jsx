@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import logo from "../img/imlsw96.png";
 
-class Header extends Component {
+class Navbar extends Component {
   render() {
     return (
       <header>
@@ -14,7 +14,7 @@ class Header extends Component {
             placeholder="검색하실 키워드를 입력하세요.."
           />
           <button className="header__showBtn">
-            <i class="fas fa-search"></i>
+            <i className="fas fa-search"></i>
           </button>
         </form>
       </header>
@@ -22,4 +22,4 @@ class Header extends Component {
   }
 }
 
-export default Header;
+export default Navbar;
