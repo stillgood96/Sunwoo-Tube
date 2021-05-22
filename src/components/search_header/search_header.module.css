@@ -1,0 +1,73 @@
+.header {
+  display: flex;
+  height: 5rem;
+  padding: 0.8em 1em;
+  background-color: darkorange;
+  color: black;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 1em;
+  height: 3rem;
+}
+.title {
+  font-size: 3rem;
+  font-family: "Lobster", cursive;
+}
+
+.img {
+  height: 100%;
+}
+
+.input {
+  /* 가능한만큼 넓이가 차진다.  */
+  flex-basis: 100%;
+  font-size: 1.2rem;
+  outline: 0;
+}
+
+.button {
+  background-color: darkgray;
+  transition: transform 200ms ease-in;
+}
+.button:hover {
+  transform: scale(1.2);
+}
+
+.buttonImg {
+  padding: 0.5em 0.2em;
+  height: 100%;
+  outline: 0;
+}
+
+/* header {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  background-color: darkorange;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__title {
+  font-family: "Lobster", cursive;
+  font-size: 35px;
+}
+
+.header__form {
+  margin-left: 24px;
+}
+
+.header__search {
+  width: 780px;
+  font-size: 24px;
+  font-family: "Black And White Picture", sans-serif;
+}
+
+.header__showBtn {
+  font-size: 24px;
+  background-color: white;
+  margin-left: 5px;
+} */
