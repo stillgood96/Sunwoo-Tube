@@ -1,7 +1,25 @@
-import React, { Component } from "react";
+import React, { useRef } from "react";
 import styles from "./search_header.module.css";
 
-const SearchHeader = (props) => {
+const SearchHeader = ({ onSearch }) => {
+  const inputRef = useRef();
+
+  const handleSearch = () => {
+    const value = inputRef.current.value;
+    console.log(value);
+    onSearch(value);
+  };
+
+  const onClick = () => {
+    handleSearch();
+  };
+
+  const onKeyPress = (event) => {
+    if (event.key === "Enter") {
+      handleSearch();
+    }
+  };
+
   return (
     <header className={styles.header}>
       {/* 두개의 태그의 높이가 맞지 않아서 맞추기 위해 묶어줌  */}
@@ -10,11 +28,13 @@ const SearchHeader = (props) => {
         <h1 className={styles.title}>SunTube</h1>
       </div>
       <input
+        ref={inputRef}
         className={styles.input}
         type="search"
         placeholder="Please enter a keyword"
+        onKeyPress={onKeyPress}
       />
-      <button type="submit" className={styles.button}>
+      <button type="submit" className={styles.button} onClick={onClick}>
         <img
           className={styles.buttonImg}
           src="images/search.png"
