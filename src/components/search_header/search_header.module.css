@@ -71,3 +71,27 @@
   background-color: white;
   margin-left: 5px;
 } */
+@media screen and (max-width: 48rem) {
+  .header {
+    padding: 0;
+    width: 100%;
+  }
+  .logo {
+    width: 2rem;
+    margin-top: 15px;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+  .input {
+    width: 15rem;
+    margin-left: 5.4rem;
+    margin-top: 1.5rem;
+    height: 2rem;
+    font-size: 0.9rem;
+  }
+  .button {
+    margin-top: 1.5rem;
+    height: 2rem;
+  }
+}

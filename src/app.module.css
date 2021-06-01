@@ -15,8 +15,20 @@
 }
 
 /* 48rem = html 최상위 값? = 16 보통 780px을 잡는데 780 / 16 = 48 ! */
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 46rem) {
   .content {
     flex-direction: column;
+    width: 100%;
+  }
+  .app {
+    width: 100%;
+  }
+  .detail {
+    flex: 0;
+    width: 100%;
+  }
+  .list {
+    flex: 0;
+    width: 100%;
   }
 }
