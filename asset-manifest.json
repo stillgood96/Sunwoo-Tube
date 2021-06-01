@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Sunwoo-Tube/static/css/main.2f07a504.chunk.css",
+    "main.js": "/Sunwoo-Tube/static/js/main.2e37c7fe.chunk.js",
+    "main.js.map": "/Sunwoo-Tube/static/js/main.2e37c7fe.chunk.js.map",
+    "runtime-main.js": "/Sunwoo-Tube/static/js/runtime-main.7c770075.js",
+    "runtime-main.js.map": "/Sunwoo-Tube/static/js/runtime-main.7c770075.js.map",
+    "static/js/2.9462e5ee.chunk.js": "/Sunwoo-Tube/static/js/2.9462e5ee.chunk.js",
+    "static/js/2.9462e5ee.chunk.js.map": "/Sunwoo-Tube/static/js/2.9462e5ee.chunk.js.map",
+    "index.html": "/Sunwoo-Tube/index.html",
+    "static/css/main.2f07a504.chunk.css.map": "/Sunwoo-Tube/static/css/main.2f07a504.chunk.css.map",
+    "static/js/2.9462e5ee.chunk.js.LICENSE.txt": "/Sunwoo-Tube/static/js/2.9462e5ee.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7c770075.js",
+    "static/js/2.9462e5ee.chunk.js",
+    "static/css/main.2f07a504.chunk.css",
+    "static/js/main.2e37c7fe.chunk.js"
+  ]
+}
